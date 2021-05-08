@@ -1,0 +1,45 @@
+.hide {
+    display: none;
+}
+
+body { 
+    background-color: black;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+h1 { 
+    color: yellow;
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 { 
+color: rgb(3, 3, 212);
+font-size: 28px;
+}
+
+
+.container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.vertical-center {
+    align-self: center;
+
+  }
+
+  button {
+    background-color: yellow;
+    color:darkblue;
+    padding: 10px;
+    border-radius: 15%;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
